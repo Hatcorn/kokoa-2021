@@ -5,12 +5,21 @@
   padding: var(--horizontal-space);
   margin-bottom: 15px;
 }
-
 .screen-header__title {
   font-size: 30px;
   font-weight: 600;
 }
-
 .screen-header__icons span {
   margin-left: 25px;
+}
+.screen-header__badge {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+  margin-top: -5px;
+  margin-left: 2px;
+}
+.screen-header__icons {
+  display: flex;
 }
